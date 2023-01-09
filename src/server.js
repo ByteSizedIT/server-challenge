@@ -4,7 +4,7 @@ const server = express();
 
 // Challenge 1
 server.get("/", (request, response) => {
-  response.send("<h1>Hello Express</h1>");
+  response.send("<h1>Hello Express with CD</h1>");
 });
 
 // Challenge 2
